@@ -1,0 +1,74 @@
+/* 
+B-green
+*/
+
+:root{
+  --bg: rgb(27, 175, 106);
+  --bg-hover:rgb(46, 189, 96);
+  --bg-focus: rgb(23, 130, 80);
+}
+
+.b-btn-bg{
+  background: #fafafa;
+}
+.b-btn{
+  display: inline-block;
+  border: 0px solid transparent;
+  background: var(--bg);
+  padding: 7px 10px;
+  line-height: 1.2em;
+  font-size: 14px;
+  color:#fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 3px transparent;
+  transition: .6s;
+  cursor: pointer;
+  font-weight: 400;
+  font-family: Roboto,Arial;
+}
+
+.b-btn:hover{
+  background: var(--bg-hover);
+}
+
+.b-btn:focus{
+  background: var(--bg-focus);
+}
+.bd-hover:hover{
+  box-shadow: 0px 0px 0px 3px rgba(27, 175, 106, 0.233);
+}
+.bd-focus:focus {
+  box-shadow: 0px 0px 0px 3px rgba(27, 175, 106, 0.411);
+}
+
+.rd-1{
+  border-radius: 1px;
+}
+
+.rd-2{
+  border-radius: 2px;
+}
+.rd-4{
+  border-radius: 4px;
+}
+.rd-6{
+  border-radius: 6px;
+}
+.rd-8{
+  border-radius: 8px;
+}
+.rd-10{
+  border-radius: 10px;
+}
+.rd-25{
+  border-radius: 25px;
+}
+.rd-30{
+  border-radius: 30px;
+}
+.rd-50p{
+  border-radius: 50%;
+}
+.no-rd{
+  border-radius: 0;
+}
