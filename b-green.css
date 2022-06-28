@@ -10,10 +10,10 @@ B-green
   --dark-hover:rgb(70, 149, 74);
 }
 
-.b-btn-bg{
+.b-green-bg{
   background: #fafafa;
 }
-.b-btn{
+.b-green{
   display: inline-block;
   border: 0px solid transparent;
   background: var(--bg);
@@ -43,11 +43,11 @@ B-green
   background: var(--dark-hover);
 }
 
-.b-btn:hover{
+.b-green:hover{
   background: var(--bg-hover);
 }
 
-.b-btn:focus{
+.b-green:focus{
   background: var(--bg-focus);
 }
 .hover-rd:hover{
